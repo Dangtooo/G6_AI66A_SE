@@ -6,6 +6,7 @@ One-paragraph description of what your team is building goes here.
 
 | Name | GitHub username | Role |
 | --- | --- | --- |
+| To Hien Hai Dang | Dangtooo | Leader |
 | Bui Dang Duong | duongbui0811 | Member |
 
 ## Setup
