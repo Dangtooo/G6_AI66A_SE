@@ -4,10 +4,11 @@ One-paragraph description of what your team is building goes here.
 
 ## Team
 
-| Name | GitHub username | Role |
-| --- | --- | --- |
-| To Hien Hai Dang | Dangtooo | Leader |
-| Bui Dang Duong | duongbui0811 | Member |
+| Name             | GitHub username | Role   |
+| ---------------- | --------------- | ------ |
+| To Hien Hai Dang | Dangtooo        | Leader |
+| Bui Dang Duong   | duongbui0811    | Member |
+| Nguyen Bao Tai   | taibaonguyen    | Member |
 
 ## Setup
 
