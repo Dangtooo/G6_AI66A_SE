@@ -7,10 +7,11 @@ One-paragraph description of what your team is building goes here.
 | Name | GitHub username | Role |
 | --- | --- | --- |
 | To Hien Hai Dang | Dangtooo | Leader |
+| Bui Dang Duong | duongbui0811 | Member |
 
 ## Setup
 
 ```bash
-git clone <this-repo-url>
-cd <repo-name>
+git clone https://github.com/Dangtooo/G6_AI66A_SE.git
+cd G6_AI66A_SE
 ```
