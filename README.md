@@ -9,6 +9,7 @@ One-paragraph description of what your team is building goes here.
 | To Hien Hai Dang | Dangtooo        | Leader |
 | Bui Dang Duong   | duongbui0811    | Member |
 | Nguyen Bao Tai   | taibaonguyen    | Member |
+| Phan Dang Vu     | PhanDangVu      | Member |
 
 ## Setup
 
