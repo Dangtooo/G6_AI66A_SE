@@ -32,3 +32,12 @@ Our primary user is our instructor, who is available to provide direct, active f
 While we operate with a flexible, agile mindset internally, our academic environment imposes strict structural boundaries via the four fixed course milestones and the final demo date. To balance these constraints, our process operates as a hybrid: we execute our coding and model integration in short, adaptable iterations, but we align our major feature freezes and milestone deliverables strictly with the instructor's plan-driven deadlines.
 
 # Section 3
+
+
+
+# Section 4
+Code Review & Branching: Every change reaches main through a Pull Request that must be reviewed and approved by at least one other team member before merging. Direct commits to main are strictly prohibited.
+
+Weekly Sync & Code Review Meeting: The team conducts a mandatory sync meeting every Monday specifically to inspect, review, and approve code before pushing and merging it to GitHub.
+
+Strict Task Completion Deadline: All team members must complete their assigned tasks and open corresponding Pull Requests prior to the Monday meeting.
