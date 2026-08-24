@@ -1,5 +1,14 @@
 # Section 1
 
+**(a) The Model: Incremental Process with Agile Practices**
+For our Text Classification & Summarization Service, we will follow an **Incremental** model driven by Agile iterations (Scrum-based). A single cycle (a two-week sprint) runs as follows: 
+First, the team selects a subset of features from the backlog (e.g., basic summarization API without queues, or adding RabbitMQ/Redis for asynchronous processing). The tasks are assigned to members handling frontend, backend, or ML ops. During development, developers integrate the NLP model, wrap it in an API, and build the corresponding UI. The cycle ends with a testing phase focusing specifically on AI output stability (verifying summaries are accurate and not hallucinated) and system load. The deliverable at the end of each cycle is a working, deployable version of the service with increasing capabilities.
+
+**(b) The Position: ~80% Agile with 20% Plan-Driven Gates**
+Our process sits closer to the Agile end of the spectrum, but heavily incorporates plan-driven milestones dictated by the academic environment. We position ourselves at **80% Agile / 20% Plan-driven**. 
+* **Plan-driven elements (Frozen for the semester):** The core technology stack (e.g., Python/FastAPI for ML serving, the specific message queue infrastructure), system architecture, and the four hard deadlines set by the instructor are fixed. 
+* **Agile elements (Re-opened every cycle):** The specific LLM/NLP models used, prompt engineering techniques, the queue processing logic (e.g., timeout handling, retry mechanisms), and UI components are continuously refined based on testing feedback. Since AI output is inherently non-deterministic, we must remain agile to adjust our serving strategy if the model proves too slow or inaccurate.
+
 # Section 2
 
 ## Q1 Are your requirements stable or volatile? What evidence do you have?
