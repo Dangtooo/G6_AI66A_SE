@@ -33,7 +33,11 @@ While we operate with a flexible, agile mindset internally, our academic environ
 
 # Section 3
 
+If our team had chosen the opposite end of the spectrum—a Fully Plan-Driven (Waterfall) approach—the single biggest risk would be late integration failure of the AI model and asynchronous infrastructure. 
 
+In a Waterfall model, we would design the entire architecture, API contracts, and message queues up front, lock the design, and then build it. The mechanism of failure here is the unpredictable nature of AI models. If we wait until the final testing phase to evaluate the model's performance, we might discover that the text generation takes 15 seconds per request instead of the 2 seconds we planned for. This would render our synchronous API design useless and cause massive system timeouts. 
+
+The concrete symptom we would observe first would be cascading HTTP 504 Gateway Timeout errors during the first major integration test, leaving the team with no time to re-architect the backend to include the necessary job queues (like Celery or RabbitMQ) before the final demo.
 
 # Section 4
 Code Review & Branching: Every change reaches main through a Pull Request that must be reviewed and approved by at least one other team member before merging. Direct commits to main are strictly prohibited.
